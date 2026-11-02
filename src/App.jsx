@@ -155,10 +155,10 @@ export default function App() {
                         </li>
                       </ul>
                       <div className="flex flex-wrap gap-2">
-                        <Badge variant="secondary">Web Security</Badge>
+                        <Badge variant="secondary">Nessus Vulnerability Scanner</Badge>
                         <Badge variant="secondary">Burp Suite</Badge>
-                        <Badge variant="secondary">Python</Badge>
-                        <Badge variant="secondary">Bash</Badge>
+                        <Badge variant="secondary">Kali Linux</Badge>
+                        <Badge variant="secondary">Excel</Badge>
                       </div>
                     </div>
                   </DialogContent>
