@@ -114,6 +114,63 @@ export default function App() {
                       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                         <div>
                           <h3 className="text-xl font-semibold">
+                            VAPT / Engineer
+                          </h3>
+                          <p className="text-muted-foreground">
+                            ST Engineering Info Security • Singapore
+                          </p>
+                        </div>
+
+                        <p className="text-sm text-muted-foreground">
+                          Apr 2026 – Present
+                        </p>
+                      </div>
+                    </button>
+                  </DialogTrigger>
+
+                  <DialogContent className="max-w-2xl bg-card text-foreground">
+                    <DialogHeader>
+                      <DialogTitle className="text-foreground">VAPT / Engineer</DialogTitle>
+                      <p className="text-sm text-muted-foreground">
+                        STG Engineering Info Security • Singapore • Apr 2026 - Present
+                      </p>
+                    </DialogHeader>
+
+                    <div className="space-y-4">
+                      <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                        <li>
+                          Assessed vulnerabilities and tracked remediation to support system hardening.
+                        </li>
+                        <li>
+                          Applied secure configuration baselines aligned with internal security standards.
+                        </li>
+                        <li>
+                          Reviewed access permissions and supported least-privilege account management.
+                        </li>
+                        <li>
+                          Documented security procedures, findings, and incident actions for audit readiness.
+                        </li>
+                        <li>
+                          Collaborated with technical teams to resolve security issues and maintain service continuity.
+                        </li>
+                      </ul>
+                      <div className="flex flex-wrap gap-2">
+                        <Badge variant="secondary">Web Security</Badge>
+                        <Badge variant="secondary">Burp Suite</Badge>
+                        <Badge variant="secondary">Python</Badge>
+                        <Badge variant="secondary">Bash</Badge>
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
+
+                {/* Experience 2 */}
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <button className="w-full text-left rounded-2xl border p-6 shadow-sm hover:shadow-md transition">
+                      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+                        <div>
+                          <h3 className="text-xl font-semibold">
                             Security / Intern
                           </h3>
                           <p className="text-muted-foreground">
@@ -128,9 +185,9 @@ export default function App() {
                     </button>
                   </DialogTrigger>
 
-                  <DialogContent className="max-w-2xl">
+                  <DialogContent className="max-w-2xl bg-card text-foreground">
                     <DialogHeader>
-                      <DialogTitle>Security / Intern</DialogTitle>
+                      <DialogTitle className="text-foreground">Security / Intern</DialogTitle>
                       <p className="text-sm text-muted-foreground">
                         Wush.co Ltd • Singapore • Feb 2025 – May 2025
                       </p>
@@ -180,9 +237,9 @@ export default function App() {
                     </button>
                   </DialogTrigger>
 
-                  <DialogContent className="max-w-2xl">
+                  <DialogContent className="max-w-2xl bg-card text-foreground">
                     <DialogHeader>
-                      <DialogTitle>IT / Intern</DialogTitle>
+                      <DialogTitle className="text-foreground">IT / Intern</DialogTitle>
                       <p className="text-sm text-muted-foreground">
                         SRS Cybernetics Ltd • Singapore • May 2022 – Apr 2023
                       </p>
@@ -233,9 +290,9 @@ export default function App() {
                     </button>
                   </DialogTrigger>
 
-                  <DialogContent className="max-w-2xl">
+                  <DialogContent className="max-w-2xl bg-card text-foreground">
                     <DialogHeader>
-                      <DialogTitle>Tax / Intern</DialogTitle>
+                      <DialogTitle className="text-foreground">Tax / Intern</DialogTitle>
                       <p className="text-sm text-muted-foreground">
                         RSM Tax Ltd • Singapore • September 2021 – Feb 2022
                       </p>
@@ -416,8 +473,8 @@ export default function App() {
                 </h3>
 
                 <div className="mt-3">
-                  <span className="px-3 py-1 text-xs rounded-full bg-yellow-100 text-yellow-700">
-                    In Progress
+                  <span className="px-3 py-1 text-xs rounded-full bg-green-100 text-green-700">
+                    Certified
                   </span>
                 </div>
                 <p className="mt-4 text-sm text-muted-foreground">
